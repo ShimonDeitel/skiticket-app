@@ -1,0 +1,40 @@
+{
+  "identifier" : "SkiticketConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "liftpasscost_group",
+      "localizations" : [],
+      "name" : "Skiticket Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "$1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "liftpasscost_pro_monthly_internal",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Season-pass breakeven calculator and per-resort comparison",
+              "displayName" : "Skiticket Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "liftpasscost_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Skiticket Pro Monthly",
+          "subscriptionGroupID" : "liftpasscost_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
